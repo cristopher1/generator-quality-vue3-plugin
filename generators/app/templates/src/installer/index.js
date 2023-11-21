@@ -1,4 +1,4 @@
-import { App } from 'Vue'
+import { App } from 'vue'
 
 /** Class used to install the plugin. */
 export class Installer {
