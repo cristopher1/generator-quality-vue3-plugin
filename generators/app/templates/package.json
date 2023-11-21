@@ -50,6 +50,9 @@
       "url": ""
     },
     "homepage": "",
+    "peerDependencies": {
+      "vue": "^3.0.0"
+    },
     "dependencies": {
       "@babel/runtime-corejs3": "^7.22.11",
       "core-js": "^3.32.1"
@@ -62,9 +65,9 @@
       "@commitlint/cli": "^17.8.0",
       "@commitlint/config-conventional": "^17.8.0",
       "@faker-js/faker": "^8.0.2",
+      "@jest/globals": "^29.7.0",
       "@rollup/plugin-babel": "^6.0.3",
       "@rollup/plugin-node-resolve": "^15.2.0",
-      "@vue/test-utils": "^2.4.2",
       "eslint": "^8.47.0",
       "eslint-config-prettier": "^9.0.0",
       "eslint-config-standard": "^17.1.0",
