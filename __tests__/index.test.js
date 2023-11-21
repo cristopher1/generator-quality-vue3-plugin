@@ -258,17 +258,15 @@ describe(`generator-quality-vue3-plugin:app`, () => {
         it('Should generate the index.test.js file with the correct content', () => {
           // Assert
           assert.fileContent([
+            ['__tests__/index.test.js', 'export function createInstaller'],
+            ['__tests__/index.test.js', 'Should create the installer object'],
             [
               '__tests__/index.test.js',
-              'describe(`export function createInstaller',
+              'Should add the $getGreeting global property',
             ],
             [
               '__tests__/index.test.js',
-              'Should work the $getGreeting global property',
-            ],
-            [
-              '__tests__/index.test.js',
-              'Should work the $greet global property',
+              'Should add the $greet global property',
             ],
           ])
         })
@@ -565,17 +563,15 @@ describe(`generator-quality-vue3-plugin:app`, () => {
         it('Should generate the index.test.js file with the correct content', () => {
           // Assert
           assert.fileContent([
+            ['__tests__/index.test.js', 'export function createInstaller'],
+            ['__tests__/index.test.js', 'Should create the installer object'],
             [
               '__tests__/index.test.js',
-              'describe(`export function createInstaller',
+              'Should add the $getGreeting global property',
             ],
             [
               '__tests__/index.test.js',
-              'Should work the $getGreeting global property',
-            ],
-            [
-              '__tests__/index.test.js',
-              'Should work the $greet global property',
+              'Should add the $greet global property',
             ],
           ])
         })
