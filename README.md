@@ -102,7 +102,6 @@ The folders created by this generator are:
     ![@vue-runtime-core](https://github.com/cristopher1/generator-quality-vue3-plugin/assets/21159930/1fd6e932-093d-4893-bcc5-e7bcfc0b486b)
 
   - `gretting`: Example folder. Contains the functions $getGreeting and $greet.
-    
   - `installer`: Contains the class used to install the plugin (class that contains the install method).
 
   - `main.js`: Exports the function createInstaller used to create the installer object that will be used to install the plugin in Vue3.
