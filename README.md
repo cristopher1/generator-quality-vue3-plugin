@@ -105,7 +105,7 @@ The folders creates by this generator are:
   - `main.js`: Exports the function createInstaller used to create the installer object that will be used to install the plugin in Vue3.
 
     Example:
- 
+
     ![createInstaller](https://github.com/cristopher1/generator-quality-vue3-plugin/assets/21159930/e060a976-bb80-4947-bdfa-8a7ca11c189b)
 
     ![greetFunction](https://github.com/cristopher1/generator-quality-vue3-plugin/assets/21159930/e0cbf619-8afc-4500-aef4-5858d00e20a8)
