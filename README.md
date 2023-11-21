@@ -102,7 +102,7 @@ The folders creates by this generator are:
   - `gretting`: Example folder. Contains the functions $getGreeting and $greet.
   - `installer`: Contains the class used to install the plugin (class that contains the install method).
 
-  - `main.js`: Exports the function createInstaller used to install the plugin in Vue3.
+  - `main.js`: Exports the function createInstaller used to create the installer object that will be used to install the plugin in Vue3.
 
     Example:
  
