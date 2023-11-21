@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to generator-quality-vue3-plugin 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.1-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.2-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/cristopher1/generator-quality-vue3-plugin#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
@@ -102,7 +102,6 @@ The folders created by this generator are:
     ![@vue-runtime-core](https://github.com/cristopher1/generator-quality-vue3-plugin/assets/21159930/1fd6e932-093d-4893-bcc5-e7bcfc0b486b)
 
   - `gretting`: Example folder. Contains the functions $getGreeting and $greet.
-    
   - `installer`: Contains the class used to install the plugin (class that contains the install method).
 
   - `main.js`: Exports the function createInstaller used to create the installer object that will be used to install the plugin in Vue3.
