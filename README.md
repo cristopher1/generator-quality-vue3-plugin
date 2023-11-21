@@ -95,22 +95,22 @@ The folders creates by this generator are:
   - `types`: Declaration file (index.d.ts).
 - `src`: Contains the source code. It includes the files and folders
 
-  - `globals`: Contains the files to extends `@vue/runtime-core`.
+  - `globals`: Contains the files to extends `@vue/runtime-core`. The functions $getGreeting and $greet are added in globalProperties for this generator when it creates the default plugin:
 
-  - `gretting`: Example folder.
+    ![@vue-runtime-core](https://github.com/cristopher1/generator-quality-vue3-plugin/assets/21159930/1fd6e932-093d-4893-bcc5-e7bcfc0b486b)
+
+  - `gretting`: Example folder. Contains the functions $getGreeting and $greet.
   - `installer`: Contains the class used to install the plugin (class that contains the install method).
 
   - `main.js`: Exports the function createInstaller used to install the plugin in Vue3.
 
     Example:
+ 
+    ![createInstaller](https://github.com/cristopher1/generator-quality-vue3-plugin/assets/21159930/e060a976-bb80-4947-bdfa-8a7ca11c189b)
 
-    ```node
-    import { createApp } from 'vue'
-    import { createInstaller } from 'myPlugin'
+    ![greetFunction](https://github.com/cristopher1/generator-quality-vue3-plugin/assets/21159930/e0cbf619-8afc-4500-aef4-5858d00e20a8)
 
-    const app = createApp()
-    app.install(createInstaller())
-    ```
+    ![getGreetingFunction](https://github.com/cristopher1/generator-quality-vue3-plugin/assets/21159930/cdc1327b-e41d-4b02-8d66-c4b6cb0f0631)
 
     The main.js file also it is the entrypoint used by rollup to generate the es5 and es6 folders (see rollup.config.js or rollup.congif.mjs)
 
