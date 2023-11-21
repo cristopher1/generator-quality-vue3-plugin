@@ -87,28 +87,21 @@ yo quality-vue3-plugin
 The folders creates by this generator are:
 
 - `__tests__`: Contains the tests.
-  
 - `.husky`: Contains the scripts used by husky.
-  
 - `coverage`: Contains the test coverage.
-  
 - `dist`: Includes three folders:
-   - `cjs`: Source code transpiled to es5 (index.cjs).
-     
-   - `esm`: Source code transpiled to es6 (index.mjs).
-     
-   - `types`: Declaration file (index.d.ts).
-     
+  - `cjs`: Source code transpiled to es5 (index.cjs).
+  - `esm`: Source code transpiled to es6 (index.mjs).
+  - `types`: Declaration file (index.d.ts).
 - `src`: Contains the source code. It includes the files and folders
 
   - `globals`: Contains the files to extends `@vue/runtime-core`.
 
   - `gretting`: Example folder.
- 
   - `installer`: Contains the class used to install the plugin (class that contains the install method).
 
   - `main.js`: Exports the function createInstaller used to install the plugin in Vue3.
- 
+
     Example:
 
     ```node
@@ -121,7 +114,7 @@ The folders creates by this generator are:
 
     The main.js file also it is the entrypoint used by rollup to generate the es5 and es6 folders (see rollup.config.js or rollup.congif.mjs)
 
- - `index.ts`: Exports the globals/index.js content and the createInstaller. It is the entrypoint used by rollup to generate the types folder (see rollup.config.js or rollup.config.mjs)
+- `index.ts`: Exports the globals/index.js content and the createInstaller. It is the entrypoint used by rollup to generate the types folder (see rollup.config.js or rollup.config.mjs)
 
 ## <a id="configuration-files"></a> The configuration files
 
