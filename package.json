@@ -1,6 +1,6 @@
 {
   "name": "generator-quality-vue3-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Yeoman generator to create a Vue3 plugin with eslint, prettier, commitlint, husky, babel and other tools.",
   "homepage": "",
   "type": "module",
@@ -16,7 +16,36 @@
       "import": "./dist/generators/app/index.js"
     }
   },
-  "keywords": [],
+  "keywords": [
+    "yeoman-generator",
+    "generator",
+    "yeoman",
+    "npm",
+    "package",
+    "quality",
+    "eslint",
+    "prettier",
+    "babel",
+    "commitlint",
+    "husky",
+    "jsdoc",
+    "readme-md-generator",
+    "rollup",
+    "lint-staged",
+    "jest",
+    "jsdoc",
+    "quality vue3 plugin",
+    "git hooks",
+    "es6",
+    "declaration files",
+    "tsc",
+    "git",
+    "pre-commit",
+    "pre-push",
+    "Vue",
+    "Vue3",
+    "JavaScript"
+  ],
   "files": [
     "dist"
   ],
