@@ -1,17 +1,26 @@
-import { faker } from './helpers'
-import { getGreeting } from '../src/index.js'
+import { beforeAll } from '@jest/globals'
+import { createApp } from './helpers'
+import { createInstaller } from '../src/main.js'
 
-const filePath = 'src/index.js'
+const filePath = 'src/main.js'
 
-describe(`export function getGreeting (${filePath})`, () => {
-  it('Should return a string that includes the hello word', () => {
+describe(`export function createInstaller (${filePath})`, () => {
+  const app = createApp()
+  const getGreeting = () => `hello from test`
+
+  beforeAll(() => {
+    app.install(createInstaller(), { getGreeting })
+  })
+
+  it('Should work the $getGreeting global property', () => {
     // Arrange
-    const string = faker.string.sample()
+    const { $getGreeting } = app.config.globalProperties
+    const expected = getGreeting()
 
     // Act
-    const result = getGreeting(string)
+    const result = $getGreeting()
 
     // Assert
-    expect(result).toMatch(/hello /i)
+    expect(result).toBe(expected)
   })
 })
